@@ -17,6 +17,6 @@ ADD custom/ /
 
 RUN chmod 755 /start
 
-VOLUME ["/var/spool/squid3"]
+#VOLUME [\"/var/spool/squid3\"]
 
-CMD ["/start"]
+#CMD [\"/start\"]
