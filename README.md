@@ -11,6 +11,12 @@
 - [Shell Access](#shell-access)
 - [Upgrading](#upgrading)
 
+
+custom build example:
+```bash
+make TAG=land/squid BASE_IMAGE=ubuntu:latest APT_MIRROR="http://mirrors.163.com/"
+```
+
 # Introduction
 
 Dockerfile to build a squid image.
